@@ -1,48 +1,37 @@
-<!DOCTYPE HTML>
-<html>
+## Welcome to GitHub Pages
 
-<head>
-    <title>Loving timer</title>
-    <script type="text/javascript" src="static/jquery.min.js"></script>
-    <script type="text/javascript" src="static/TimeCircles.js"></script>
-    <link rel="stylesheet" href="static/bootstrap.min.css">
-    <link rel="stylesheet" href="static/TimeCircles.css" />
-    <link rel="icon" href="xiaoxiao.png">
-    <style>
-        body {
-            -webkit-font-smoothing: antialiased;
-            font-family: Helvetica Neue, Helvetica, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
-            background-color: #fffceb;
-        }
+You can use the [editor on GitHub](https://github.com/pengxiuxiao/love-ing/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
-        .container {
-            width: 800px;
-            height: 340px;
-            position: absolute;
-            left: 50%;
-            top: 50%;
-            margin-left: -400px;
-            margin-top: -170px;
-        }
+Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-        h2 {
-            text-align: center;
-        }
-    </style>
-</head>
+### Markdown
 
-<body>
-	<div  id="loving">
-	</div>
-    <div class="container">
-        <div class="content">
-            <h2>从 2019年4月1日 👫 到 未来</h2>
-            <div id="DateCountdown" data-date="2019-04-01 21:09:00"></div>
-        </div>
-    </div>
-    <script>
-        $("#DateCountdown").TimeCircles();
-    </script>
-</body>
+Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-</html>
+```markdown
+Syntax highlighted code block
+
+# Header 1
+## Header 2
+### Header 3
+
+- Bulleted
+- List
+
+1. Numbered
+2. List
+
+**Bold** and _Italic_ and `Code` text
+
+[Link](url) and ![Image](src)
+```
+
+For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+
+### Jekyll Themes
+
+Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/pengxiuxiao/love-ing/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+
+### Support or Contact
+
+Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
